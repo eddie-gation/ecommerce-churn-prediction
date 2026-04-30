@@ -14,12 +14,12 @@ retention campaigns through cost-benefit analysis.
 ---
 
 ## 📂 Project Structure
+```
 ecommerce_churn/
-├── E_Commerce.ipynb    
-├── images/             
-└── README.md
-
----
+├── E_Commerce.ipynb          # Full analysis notebook
+├── images/                   # Visualizations
+└── README.md                 # Project documentation
+```
 
 ## 📊 Dataset
 - **Source**: E-Commerce Customer Churn Dataset (Kaggle)
@@ -44,7 +44,7 @@ PreferredPaymentMode, MaritalStatus, and more.
 
 ### 3. Modeling
 - Compared Logistic Regression, Random Forest, and XGBoost
-- Selected XGBoost based on Recall and F1-score
+- Selected XGBoost mainly based on Recall and F1-score
 
 ### 4. Cost-Benefit Analysis
 - Optimized classification threshold to minimize total business cost
@@ -64,6 +64,9 @@ PreferredPaymentMode, MaritalStatus, and more.
 
 ### Cost by Threshold
 ![Cost by Threshold](images/Cost%20by%20Threshold.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](images/Corrleation_Heatmap.png)
 
 ---
 
