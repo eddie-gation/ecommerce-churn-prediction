@@ -59,6 +59,9 @@ pip install -r requirements.txt
 ### 3. Modeling
 - Compared Logistic Regression, Random Forest, and XGBoost
 - Selected XGBoost mainly based on Recall and F1-score
+- Applied 5-fold cross-validation to validate model stability (Mean AUC: 0.9992)
+- Identified overfitting (Train AUC: 1.000 vs Test AUC: 0.987) and attempted regularization
+- Concluded original parameters were optimal as regularization reduced Recall without meaningful overfitting improvement
 
 ### 4. Cost-Benefit Analysis
 - Optimized classification threshold to minimize total business cost
