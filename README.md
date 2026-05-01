@@ -30,6 +30,19 @@ Key features include Tenure, Complain, SatisfactionScore,
 PreferredPaymentMode, MaritalStatus, and more.
 
 ---
+## 🚀 Installation
+
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/eddie-gation/ecommerce-churn-prediction.git
+cd ecommerce-churn-prediction
+```
+
+2️⃣ Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+---
 
 ## 🔍 Methodology
 
