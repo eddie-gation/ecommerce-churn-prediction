@@ -33,9 +33,10 @@ PreferredPaymentMode, MaritalStatus, and more.
 
 ## 🔍 Methodology
 
-### 1. Data Cleaning
+### 1. Data Preprocessing
 - Removed duplicate category values (CC → Credit Card, COD → Cash on Delivery)
 - Imputed missing values with median
+- One-Hot Encoding for categorical vriables
 - Dropped CustomerID
 
 ### 2. Exploratory Data Analysis
@@ -71,6 +72,11 @@ PreferredPaymentMode, MaritalStatus, and more.
 ---
 
 ## 📊 Results
+
+**Business Assumptions:**
+- Revenue loss per churned customer (FN): 200 USD
+- Retention campaign cost per customer (FP): 10 USD
+
 | | Value |
 |---|---|
 | Best Model | XGBoost |
